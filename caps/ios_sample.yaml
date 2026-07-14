@@ -1,0 +1,11 @@
+platformName: iOS
+automationName: XCUITest
+# Replace with your device UDID
+# udid: <your-ios-device-udid>
+app: apps/sample-app.ipa
+bundleId: com.example.sampleapp
+platformVersion: "17"
+newCommandTimeout: 300
+noReset: false
+fullReset: false
+autoAcceptAlerts: true
