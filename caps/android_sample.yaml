@@ -1,0 +1,13 @@
+platformName: Android
+automationName: UIAutomator2
+# Replace with your device UDID or emulator serial (e.g., emulator-5554)
+# deviceName: Pixel_5_API_34
+# udid: emulator-5554
+app: apps/sample-app.apk
+appPackage: com.example.sampleapp
+appActivity: .MainActivity
+platformVersion: "14"
+newCommandTimeout: 300
+noReset: false
+fullReset: false
+autoGrantPermissions: true
